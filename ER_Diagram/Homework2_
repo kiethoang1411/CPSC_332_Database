@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T16:01:15.160Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="GmVZuDUA6x5t1wU_f2vf" version="20.8.21" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-21T16:06:34.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="_CX13TK3XVjsPk1Sk6JE" version="20.8.21" type="github">
   <diagram name="Trang-1" id="MgeYlnp0xkZVRmpOEbwi">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,7 +86,7 @@
           <mxGeometry x="265" y="525" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="w-I9zQrbu471sfDGRshE-31" value="Flight" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="30" y="600" width="50" height="30" as="geometry" />
+          <mxGeometry x="25" y="600" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="w-I9zQrbu471sfDGRshE-32" value="&lt;u&gt;Number&amp;nbsp;&lt;/u&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="25" y="640" width="80" height="50" as="geometry" />
@@ -98,7 +98,7 @@
           <mxGeometry x="180" y="640" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="w-I9zQrbu471sfDGRshE-36" value="Fare" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="25" y="720" width="50" height="30" as="geometry" />
+          <mxGeometry x="20" y="720" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="w-I9zQrbu471sfDGRshE-37" value="&lt;u&gt;Code&lt;/u&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="25" y="750" width="80" height="50" as="geometry" />
@@ -113,7 +113,7 @@
           <mxGeometry x="265" y="750" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="w-I9zQrbu471sfDGRshE-41" value="Departure_Airport" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="20" y="820" width="120" height="30" as="geometry" />
+          <mxGeometry x="15" y="820" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="w-I9zQrbu471sfDGRshE-42" value="Airport_code (FK)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="860" width="80" height="50" as="geometry" />
@@ -123,6 +123,66 @@
         </mxCell>
         <mxCell id="w-I9zQrbu471sfDGRshE-44" value="Scheduled_dep_time" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="860" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-45" value="Arrival_Airport" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="935" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-46" value="Airport_code (FK)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="970" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-48" value="Leg_no (FK)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="970" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-49" value="Scheduled_arr_time" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="970" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-50" value="Departs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1040" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-51" value="Airport_code (FK)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1080" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-52" value="Date (FK)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1080" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-53" value="Dep_time" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1080" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-54" value="Arrives" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-57" value="Airport_code (FK)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1190" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-58" value="Date (FK)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1190" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-59" value="Arr_time" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1190" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-60" value="Reservation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1270" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-61" value="Date (FK)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="1300" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-62" value="Seat_no (FK)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="1300" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-63" value="Customer_name" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="175" y="1300" width="95" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-64" value="Cphone" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1300" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-65" value="Can_land" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="15" y="1370" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-66" value="Airport_code (FK)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1400" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-67" value="Type_name (FK)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1400" width="80" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
