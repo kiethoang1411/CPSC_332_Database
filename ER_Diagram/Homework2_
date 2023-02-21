@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T15:59:49.354Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="VL14ZIDYi9EzDLANRbm9" version="20.8.21" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-21T16:01:15.160Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="GmVZuDUA6x5t1wU_f2vf" version="20.8.21" type="github">
   <diagram name="Trang-1" id="MgeYlnp0xkZVRmpOEbwi">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -111,6 +111,18 @@
         </mxCell>
         <mxCell id="w-I9zQrbu471sfDGRshE-40" value="Number (FK)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="265" y="750" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-41" value="Departure_Airport" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="820" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-42" value="Airport_code (FK)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="860" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-43" value="Leg_no (FK)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="860" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-44" value="Scheduled_dep_time" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="860" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
