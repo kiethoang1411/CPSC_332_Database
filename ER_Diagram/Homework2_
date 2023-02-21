@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-21T15:54:50.483Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="tJ67A8iYHN3jZv1rWBti" version="20.8.21" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-21T15:59:49.354Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="VL14ZIDYi9EzDLANRbm9" version="20.8.21" type="github">
   <diagram name="Trang-1" id="MgeYlnp0xkZVRmpOEbwi">
     <mxGraphModel dx="1434" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
           <mxGeometry x="110" y="310" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="w-I9zQrbu471sfDGRshE-14" value="Leg_instance" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="30" y="380" width="90" height="30" as="geometry" />
+          <mxGeometry x="20" y="380" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="w-I9zQrbu471sfDGRshE-15" value="&lt;u&gt;Date&lt;/u&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="410" width="80" height="50" as="geometry" />
@@ -69,6 +69,48 @@
         </mxCell>
         <mxCell id="w-I9zQrbu471sfDGRshE-25" value="Airplane_ID (FK)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="410" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-26" value="Flight_leg&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="20" y="495" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-27" value="&lt;u&gt;Leg_no&amp;nbsp;&lt;/u&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="525" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-28" value="Number (FK)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="525" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-29" value="Airport_code (FK)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="525" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-30" value="Number" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="525" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-31" value="Flight" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="600" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-32" value="&lt;u&gt;Number&amp;nbsp;&lt;/u&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="640" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-33" value="Airline" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="640" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-34" value="Weekdays" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="640" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-36" value="Fare" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="25" y="720" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-37" value="&lt;u&gt;Code&lt;/u&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="25" y="750" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-38" value="Restriction" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="750" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-39" value="Amount" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="750" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="w-I9zQrbu471sfDGRshE-40" value="Number (FK)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="265" y="750" width="80" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
